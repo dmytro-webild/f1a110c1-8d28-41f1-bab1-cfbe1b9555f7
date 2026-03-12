@@ -49,16 +49,16 @@ export default function LandingPage() {
           tagAnimation="blur-reveal"
           background={{ variant: "radial-gradient" }}
           leftCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-holding-bottle_23-2149048133.jpg?_wi=1", imageAlt: "Korean restaurant ambiance" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-dish-inside-plate-tray-green-table-food-meal-restaurant_140725-27860.jpg?_wi=1", imageAlt: "Korean banchan side dishes" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food_1150-43003.jpg?_wi=1", imageAlt: "Bibimbap bowl" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/thai-tom-yum-soup_1150-18489.jpg?_wi=1", imageAlt: "Kimchi jjigae stew" }
+            { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-holding-bottle_23-2149048133.jpg", imageAlt: "Korean restaurant ambiance" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-dish-inside-plate-tray-green-table-food-meal-restaurant_140725-27860.jpg", imageAlt: "Korean banchan side dishes" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food_1150-43003.jpg", imageAlt: "Bibimbap bowl" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/thai-tom-yum-soup_1150-18489.jpg", imageAlt: "Kimchi jjigae stew" }
           ]}
           rightCarouselItems={[
             { imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-dough-with-ray-sun-her-hands_158595-5646.jpg", imageAlt: "Korean chef cooking" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/chef-cutting-raw-beef-steak-from-middle-kitchen_141793-162.jpg?_wi=1", imageAlt: "Korean BBQ grilling" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/tasty-fresh-cold-appetizing-vanilla-ice-cream-with-nuts-apricots-waffles-syrup-white-table-with-ingredients-making-dessert-closeup_1220-1400.jpg?_wi=1", imageAlt: "Tteokbokki rice cakes" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-holding-bottle_23-2149048133.jpg?_wi=2", imageAlt: "Restaurant dining experience" }
+            { imageSrc: "http://img.b2bpic.net/free-photo/chef-cutting-raw-beef-steak-from-middle-kitchen_141793-162.jpg", imageAlt: "Korean BBQ grilling" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/tasty-fresh-cold-appetizing-vanilla-ice-cream-with-nuts-apricots-waffles-syrup-white-table-with-ingredients-making-dessert-closeup_1220-1400.jpg", imageAlt: "Tteokbokki rice cakes" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-holding-bottle_23-2149048133.jpg", imageAlt: "Restaurant dining experience" }
           ]}
           carouselPosition="right"
           buttons={[
@@ -97,15 +97,15 @@ export default function LandingPage() {
             {
               title: "Korean Banchan",              description: "Complimentary side dishes featuring kimchi, seasoned vegetables, and traditional pickles that accompany every meal",              icon: Leaf,
               mediaItems: [
-                { imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-dish-inside-plate-tray-green-table-food-meal-restaurant_140725-27860.jpg?_wi=2", imageAlt: "Colorful Korean banchan side dishes" },
-                { imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-dish-inside-plate-tray-green-table-food-meal-restaurant_140725-27860.jpg?_wi=3", imageAlt: "Traditional kimchi and sides" }
+                { imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-dish-inside-plate-tray-green-table-food-meal-restaurant_140725-27860.jpg", imageAlt: "Colorful Korean banchan side dishes" },
+                { imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-dish-inside-plate-tray-green-table-food-meal-restaurant_140725-27860.jpg", imageAlt: "Traditional kimchi and sides" }
               ]
             },
             {
               title: "BBQ & Grilled Specialties",              description: "Experience tabletop Korean BBQ with premium marinated meats, bulgogi, and kalbi cooked to perfection right at your table",              icon: Flame,
               mediaItems: [
-                { imageSrc: "http://img.b2bpic.net/free-photo/chef-cutting-raw-beef-steak-from-middle-kitchen_141793-162.jpg?_wi=2", imageAlt: "Korean BBQ grilling at table" },
-                { imageSrc: "http://img.b2bpic.net/free-photo/chef-cutting-raw-beef-steak-from-middle-kitchen_141793-162.jpg?_wi=3", imageAlt: "Sizzling meat on grill" }
+                { imageSrc: "http://img.b2bpic.net/free-photo/chef-cutting-raw-beef-steak-from-middle-kitchen_141793-162.jpg", imageAlt: "Korean BBQ grilling at table" },
+                { imageSrc: "http://img.b2bpic.net/free-photo/chef-cutting-raw-beef-steak-from-middle-kitchen_141793-162.jpg", imageAlt: "Sizzling meat on grill" }
               ]
             }
           ]}
@@ -120,13 +120,13 @@ export default function LandingPage() {
           tagIcon={Star}
           tagAnimation="slide-up"
           textboxLayout="default"
-          animationType="depth-3d"
+          animationType="scale-rotate"
           useInvertedBackground={true}
           gridVariant="three-columns-all-equal-width"
           products={[
-            { id: "1", name: "Bibimbap", price: "$14.95", imageSrc: "http://img.b2bpic.net/free-photo/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food_1150-43003.jpg?_wi=2", imageAlt: "Bibimbap Korean rice bowl", initialQuantity: 1 },
-            { id: "2", name: "Kimchi Jjigae", price: "$13.95", imageSrc: "http://img.b2bpic.net/free-photo/thai-tom-yum-soup_1150-18489.jpg?_wi=2", imageAlt: "Kimchi jjigae stew", initialQuantity: 1 },
-            { id: "3", name: "Tteokbokki", price: "$12.95", imageSrc: "http://img.b2bpic.net/free-photo/tasty-fresh-cold-appetizing-vanilla-ice-cream-with-nuts-apricots-waffles-syrup-white-table-with-ingredients-making-dessert-closeup_1220-1400.jpg?_wi=2", imageAlt: "Spicy tteokbokki rice cakes", initialQuantity: 1 }
+            { id: "1", name: "Bibimbap", price: "$14.95", imageSrc: "http://img.b2bpic.net/free-photo/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food_1150-43003.jpg", imageAlt: "Bibimbap Korean rice bowl", initialQuantity: 1 },
+            { id: "2", name: "Kimchi Jjigae", price: "$13.95", imageSrc: "http://img.b2bpic.net/free-photo/thai-tom-yum-soup_1150-18489.jpg", imageAlt: "Kimchi jjigae stew", initialQuantity: 1 },
+            { id: "3", name: "Tteokbokki", price: "$12.95", imageSrc: "http://img.b2bpic.net/free-photo/tasty-fresh-cold-appetizing-vanilla-ice-cream-with-nuts-apricots-waffles-syrup-white-table-with-ingredients-making-dessert-closeup_1220-1400.jpg", imageAlt: "Spicy tteokbokki rice cakes", initialQuantity: 1 }
           ]}
         />
       </div>
@@ -164,7 +164,7 @@ export default function LandingPage() {
           useInvertedBackground={true}
           mediaAnimation="blur-reveal"
           mediaPosition="right"
-          imageSrc="http://img.b2bpic.net/free-photo/full-shot-woman-holding-bottle_23-2149048133.jpg?_wi=3"
+          imageSrc="http://img.b2bpic.net/free-photo/full-shot-woman-holding-bottle_23-2149048133.jpg"
           imageAlt="Rachel's Korean Restaurant interior"
           buttonText="Reserve Now"
           inputs={[
